@@ -1,0 +1,15 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Auto Pet",
+    "author": "PsykoDev",
+    "description": "Automatically summons and feeds your pet and auto use bracing force with brooch",
+    "options": {
+		"settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+		"niceName": "Auto Pet",
+        "guiName": "Auto Pet"
+	},
+    "servers": ["https://raw.githubusercontent.com/PsykoDev/Auto-Pet/master/"],
+	"supportUrl": "https://github.com/PsykoDev/Auto-Pet/issues"
+}

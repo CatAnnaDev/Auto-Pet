@@ -1,0 +1,17 @@
+{
+	"files": {
+		"index.js": "1e498c083fa8be5094056f6c4b8e531e569b5b44c61ce19a8b0056dfc73e152a",
+		"module.json": "3d4d8aab7f3af2b55fa6c101fc22ae7f4de3b7af5512352fd5c5cfddf9df8614",
+		"README.md": "f8787f8167dd68e65127101ae063b56c33445fc4f5779196604668058d593cc4",
+		"settings_migrator.js": "4c482383325c7801c023e24bf84cd8e16ec967cb4a7f184dd648288c1f5549b6"
+	},
+	"defs": {
+		"C_PLAYER_LOCATION": 5,
+		"S_REQUEST_SPAWN_SERVANT": 4,
+		"S_REQUEST_DESPAWN_SERVANT": 1,
+		"S_UPDATE_SERVANT_INFO": 1,
+		"C_VISIT_NEW_SECTION": 1,
+		"C_REQUEST_SPAWN_SERVANT": 1,
+		"C_USE_ITEM": 3
+	}
+}
