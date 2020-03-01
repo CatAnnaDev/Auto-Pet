@@ -19,14 +19,11 @@ class Player {
 
 const brooch = [19702, 19703, 19705, 19706, 51011, 51028, 51029, 51030, 98404, 98405, 98406]
 module.exports = function AutoPet(mod) {
-    const path = require('path'),
-          fs = require('fs'),
-         command = mod.command || mod.require.command
     const Vec3 = require('tera-vec3');
-
     mod.game.initialize("inventory");
+
     let gameId,
-        charId;
+        charId,
         petId = null,
         getbondSkill = false
     let inCombat = false;
