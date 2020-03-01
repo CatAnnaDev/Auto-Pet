@@ -54,19 +54,19 @@ module.exports = function AutoPet(mod) {
                 break;
             case 'on':
                     mod.settings.characters[charId].enabled = 1
-                    command.message('Module <font color="#00FF00">Enabled</font> for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
+                    mod.command.message('Module <font color="#00FF00">Enabled</font> for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
                     break;
             case 'off':
                     mod.settings.characters[charId].enabled = 0
-                    command.message('Module <font color="#FF0000">Disabled</font> for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
+                    mod.command.message('Module <font color="#FF0000">Disabled</font> for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
                     break;
             case 'bond':
                     getbondSkill = true
-                    command.message('Press your pet skill now to save it in the config' )
+                    mod.command.message('Press your pet skill now to save it in the config' )
                     break;
             case 'delay':
                 mod.settings.characters[charId].delay = value
-                    command.message('Bracing Force will be delayed by <font color="#DB3DCE">' + value + 'ms</font> after using brooch.')
+                mod.command.message('Bracing Force will be delayed by <font color="#DB3DCE">' + value + 'ms</font> after using brooch.')
                     break;
             default:
                 mod.settings.enabled = !mod.settings.enabled;
@@ -110,7 +110,7 @@ module.exports = function AutoPet(mod) {
 		if(getbondSkill) {
 			getbondSkill = false
 			mod.settings.characters[charId].bondSkill = event.skill
-			command.message('Bracing Force Skill ID <font color="#F1D448">' + event.skill + '</font> saved for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
+			mod.command.message('Bracing Force Skill ID <font color="#F1D448">' + event.skill + '</font> saved for <font color="#00BFFF">' + mod.settings.characters[charId].name + '</font>')
 		}
 	})
 	
