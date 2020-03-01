@@ -4,7 +4,7 @@
     "author": "PsykoDev",
     "description": "Automatically summons and feeds your pet and auto use bracing force with brooch",
     "options": {
-		"settingsVersion": 1,
+		"settingsVersion": 1.1,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
 		"niceName": "Auto Pet",

@@ -1,8 +1,19 @@
 const DefaultSettings = {
 	enabled: true,
-	petFood: [{
+	petFood: [
+		{
 		id: 206049,
 		name: "Puppy Figurine",
+		cd: 2,
+	},
+	{
+		id: 206050,
+		name: "Piglet Figurine",
+		cd: 2,
+	},
+	{
+		id: 206051,
+		name: "Popori Figurine",
 		cd: 2,
 	}],
 	feedWhenBelow: 90,
