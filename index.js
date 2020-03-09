@@ -23,6 +23,7 @@ module.exports = function AutoPet(mod) {
     mod.game.initialize("inventory");
 
     let gameId,
+        UniqueID,
         charId,
         petId = null,
         getbondSkill = false
