@@ -17,7 +17,7 @@ class Player {
     }
 }
 
-const brooch = [19702, 19703, 19705, 19706, 51011, 51028, 51029, 51030, 98404, 98405, 98406]
+const brooch = [19702, 19703, 19705, 19706, 51011, 51028, 51029, 51030, 98404, 98405, 98406, 88875, 88876, 88877, 88878, 88879, 88880, 88881, 88882]
 module.exports = function AutoPet(mod) {
     const Vec3 = require('tera-vec3');
     mod.game.initialize("inventory");
