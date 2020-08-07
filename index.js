@@ -152,7 +152,7 @@ module.exports = function AutoPet(mod) {
         }
     })
 
-    mod.hook('S_UPDATE_SERVANT_INFO', 1, (event) => {
+    mod.hook('S_UPDATE_SERVANT_INFO', 2, (event) => {
         if (event.dbid == mainServant.UniqueID) {
             const energy = (event.energy / 300) * 100;
             if (energy <= mod.settings.feedWhenBelow && !inCombat && petSummoned && mod.settings.enabled) {
