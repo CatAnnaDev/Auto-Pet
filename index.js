@@ -23,7 +23,7 @@ module.exports = function AutoPet(mod) {
     mod.game.initialize("inventory");
 
     let gameId,
-        UniqueID,
+        UniqueID = null,
         charId,
         petId = null,
         getbondSkill = false
@@ -152,7 +152,7 @@ module.exports = function AutoPet(mod) {
         }
     })
 
-    mod.hook('S_UPDATE_SERVANT_INFO', 2, (event) => {
+    mod.hook('S_UPDATE_SERVANT_INFO', 1, (event) => {
         if (event.dbid == mainServant.UniqueID) {
             const energy = (event.energy / 300) * 100;
             if (energy <= mod.settings.feedWhenBelow && !inCombat && petSummoned && mod.settings.enabled) {
