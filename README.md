@@ -1,7 +1,7 @@
 ## Info:
 
-- Automatically summons and feeds your pet.
-- Automatically uses Bracing Force pet buff when using your brooch.
+- Automatically summons and feeds your pet. /// Only that work 
+- Automatically uses Bracing Force pet buff when using your brooch. /// Not since 97 patch
 
 ---
 
